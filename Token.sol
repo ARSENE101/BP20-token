@@ -38,13 +38,13 @@ contract Token {
         emit Transfer(address(0), msg.sender, totalSupply);
     }
 
-    // Returns the token balance of an address.
-    function balanceOf(address owner) public view returns (uint256) {
+    
+    function balanceOf(address owner) public view returns (uint256) { // Returns the token balance of an address.
         return balances[owner];
     }
 
-    // Transfers tokens from the caller to another address.
-    function transfer(
+   
+    function transfer( // Transfers tokens from the caller to another address.
         address to,
         uint256 value
     ) public returns (bool) {
