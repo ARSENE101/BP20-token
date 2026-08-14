@@ -1,9 +1,9 @@
 # BP20-token
-A Solidity-based fungible token implementation built to explore the mechanics behind BP20 that also applies to the  ERC-20-style tokens
+A Solidity-based fungible token implementation built to explore the mechanics behind BP20 that also applies to the  ERC-20-style tokens at thesame time.
 
 ## Overview
 
-BP20 was built as a learning project while studying Solidity and smart contract development.
+BP20-token "this Repo" was built as a learning project while studying Solidity and smart contract development, inspired by the BP20 standard and a peep at the erc-20 as well a blend of both worlds i can say, but to be fair they are very similar in implementation .
 
 The goal was not to create a production-ready token, but to understand what actually happens inside a token contract when users:
 
@@ -13,13 +13,13 @@ The goal was not to create a production-ready token, but to understand what actu
 - transfer tokens through an approved allowance
 - interact with token balances and supply
 
-Rather than relying entirely on an existing token library, I wanted to implement these mechanics myself and understand how they work at the contract level.
+Rather than relying entirely on an existing token library, I wanted to implement these mechanics myself and understand how they work at the contract level, so feel free to use and implement as you please.
 
 ## What I Built
 
 The contract implements the core functionality required for a basic fungible token:
 
-- Token name and symbol
+- Token name and symbol that i named OJO because at the moment i am  working on a token system that bears that name.
 - Token decimals
 - Total supply
 - Balance tracking
