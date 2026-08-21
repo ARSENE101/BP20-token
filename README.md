@@ -1,5 +1,5 @@
 # BP20-token
-A Solidity-based fungible token implementation built to explore the mechanics behind BP20 that also applies to the  ERC-20-style tokens at thesame time.
+A Solidity-based fungible token implementation built to explore the mechanics behind BP20 that also applies to the  ERC-20-style tokens at thesame time. **NB: I will be updating comments ps: my comments feel like notes so feel free to ask questions if something is not clear**
 
 ## Overview
 
